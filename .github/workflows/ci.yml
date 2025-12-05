@@ -1,0 +1,22 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Lint with flake8
+        run: |
+          pip install flake8
+          flake8 . --count --max-complexity=10 --statistics
+      - name: Test data loading
+        run: |
+          python -c "import pandas as pd; df=pd.read_csv('data/MachineLearningRating_v3.csv'); print(f'Data loaded: {df.shape}')"

@@ -1,0 +1,7 @@
+myenv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+data/*.txt
+data/*.csv  # We'll use DVC for data
