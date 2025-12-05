@@ -4,4 +4,5 @@ __pycache__/
 .DS_Store
 .ipynb_checkpoints/
 data/*.txt
-data/*.csv  # We'll use DVC for data
+data/*.csv 
+data/raw_insurance.csv
