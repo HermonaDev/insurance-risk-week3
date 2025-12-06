@@ -12,6 +12,7 @@ jobs:
           python-version: '3.9'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Test data loading
-        run: |
-          python -c "import pandas as pd; df=pd.read_csv('data/raw_insurance.csv'); print(f'Data: {df.shape}')"
+      - name: Test imports
+        run: python -c "import pandas as pd; import numpy as np; import matplotlib.pyplot as plt; print('All imports successful')"
+      - name: Test data load
+        run: python -c "import pandas as pd; df = pd.read_csv('data/raw_insurance.csv', low_memory=False); print(f'Data loaded: {df.shape[0]:,} rows, {df.shape[1]:,} columns')"
