@@ -52,3 +52,22 @@ dvc pull
 "- Create feature branch for each task" 
 "- Open Pull Request on GitHub before merging" 
 "- Use descriptive PR titles and descriptions" 
+
+## Contributing
+
+1. Create a feature branch: `git checkout -b feature/description`
+2. Make your changes and commit: `git commit -m "feat: add new analysis"`
+3. Push to GitHub: `git push origin feature/description`
+4. Open a Pull Request with:
+   - Clear title describing the change
+   - Description of what was changed and why
+   - Reference to any related issues
+5. Request review from team members
+6. Merge after approval
+
+## Project Structure
+- `data/`: Raw and processed data (tracked via DVC)
+- `notebooks/`: Exploratory analysis and prototyping
+- `src/`: Reusable Python modules
+- `reports/`: Generated visualizations and reports
+- `scripts/`: One-off data processing scripts
