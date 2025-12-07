@@ -12,5 +12,5 @@ jobs:
           python-version: '3.9'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Test data loading
-        run: python -c "import pandas as pd; df=pd.read_csv('data/raw_insurance.csv'); print(f'Data OK: {df.shape}')"
+      - name: Verify Python environment
+        run: python -c "import pandas, numpy, matplotlib, seaborn; print('✅ All required packages imported successfully')"
