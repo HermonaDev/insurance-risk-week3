@@ -1,0 +1,12 @@
+Metric,Value,Business Implication
+Total Policies,"1,000,098",Portfolio size
+Total Premium (R),"61,911,563",Annual revenue
+Total Claims (R),"64,867,546",Annual claims cost
+Overall Loss Ratio,104.8%,>100% = unprofitable
+Average Premium (R),62,Average policy value
+Average Claim (R),65,Average claim cost
+Date Range,01 Oct 2013 to 01 Aug 2015,Analysis period
+Unique Provinces,9,Geographic coverage
+Unique Vehicle Types,5,Vehicle diversity
+Missing Data Columns,22,Data quality issues
+Outlier Policies (%),1.1%,Extreme risk concentration

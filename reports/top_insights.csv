@@ -1,0 +1,7 @@
+category,finding,impact,recommendation
+PORTFOLIO HEALTH,Overall Loss Ratio: 104.8% (Unprofitable),R4.6M annual loss at current scale,Immediate premium review: Minimum 5% increase required
+GEOGRAPHIC RISK,"Gauteng: 122% LR (R5.3M loss), Northern Cape: 28% LR (Profitable)",4.3x risk difference between best/worst provinces,"Province-based pricing: +15% Gauteng, -10% Northern Cape"
+VEHICLE SEGMENT,"Heavy Commercial: 163% LR, Bus: 14% LR",10x risk difference between vehicle types,Vehicle-type pricing tiers + risk assessment
+DATA QUALITY,"Gender: 87% 'Not specified', CrossBorder: 99.97% missing","Limits segmentation capability, unreliable demographics",Data collection overhaul priority 1
+CONCENTRATION RISK,"Top 5% claims = 62% of claim value, Top 5% premiums = 41% of revenue","Vulnerable to few large claims, revenue concentration","Reinsurance for large claims, portfolio diversification"
+TEMPORAL TREND,Loss ratio increasing: 80% (2014) → 120% (2015),"Systemic deterioration, not seasonal","Root cause analysis, underwriting standards review"
