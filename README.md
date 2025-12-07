@@ -43,3 +43,8 @@ pip install -r requirements.txt
 
 # Pull data via DVC
 dvc pull
+
+## Data Pipeline
+1. Raw TXT → CSV: `python scripts/convert_data.py`
+2. Analysis: `notebooks/01_eda.ipynb`
+3. Data versioning: `dvc pull` to get data, `dvc push` to update
