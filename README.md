@@ -15,6 +15,7 @@ Analysis of historical insurance claim data to identify low-risk customer segmen
 
 ## Repository Structure
 insurance-risk-week3/
+
 ├── data/ # Data files (tracked via DVC)
 
 ├── notebooks/ # Jupyter notebooks for analysis
