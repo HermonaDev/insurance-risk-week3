@@ -48,3 +48,7 @@ dvc pull
 1. Raw TXT → CSV: `python scripts/convert_data.py`
 2. Analysis: `notebooks/01_eda.ipynb`
 3. Data versioning: `dvc pull` to get data, `dvc push` to update
+"\n## Development Workflow" 
+"- Create feature branch for each task" 
+"- Open Pull Request on GitHub before merging" 
+"- Use descriptive PR titles and descriptions" 
